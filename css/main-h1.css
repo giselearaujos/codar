@@ -1,0 +1,15 @@
+.main-h1 {
+    color: var(--color-first);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.dot {
+    color: var(--color-second);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+}
