@@ -1,11 +1,16 @@
 .main-button {
     background-color: var(--color-first);
-    border-radius: 20px;
+    border-radius: 15px;
     color: var(--color-third);
     font-family: Roboto, sans-serif;
     font-size: 25px;
     font-weight: bold;
     width: 200px;
-    height: 55px;
+    height: 53px;
     cursor: pointer;
+}
+
+.main-button.-request {
+    margin-top: 40px;
+    width: 350px;
 }
