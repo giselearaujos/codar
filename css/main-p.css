@@ -1,0 +1,12 @@
+.main-p {
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-p.-list {
+    font-weight: normal;
+    font-size: 28px;    
+    margin-top: 20px;
+}
+
