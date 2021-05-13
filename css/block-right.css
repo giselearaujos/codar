@@ -1,0 +1,10 @@
+.block-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 600px;
+    height: 450px;
+    margin-left: 20px;    
+}
+
