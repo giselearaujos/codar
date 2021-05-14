@@ -1,0 +1,9 @@
+.card-body {
+    display: flex;     
+    background-color: var(--color-fourth);
+    border-radius: 15px;
+    padding: 20px;
+    width: 550px;
+    height: 150px;
+    margin-left: 20px;
+}
