@@ -10,3 +10,36 @@
     margin-top: 20px;
 }
 
+.main-p.-msg {
+    font-weight: normal;
+    font-size: 18px;
+    text-align:justify;
+    margin-top: 20px;
+}
+
+.main-p.-name {
+    font-weight: normal;
+    font-size: 30px;
+    margin-top:15px;
+}
+
+.main-p.-company {
+    font-size:18px;
+}
+
+.main-p.-footer-title{
+    color: var(--color-third); 
+    font-size: 30px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.main-p.-footer-text {
+    color: var(--color-third); 
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.main-p.-footer-text.-address {
+    margin-top: 15px;
+}

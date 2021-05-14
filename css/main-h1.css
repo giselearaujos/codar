@@ -14,7 +14,14 @@
     font-weight: bold;
 }
 
-.main-h1.-title{
+.main-h1.-title {
     font-style:normal;
     margin-top: 15px;
 }
+
+.main-h1.-footer-codar {
+    color: var(--color-third);
+    margin-top: 100px;    
+    margin-bottom: 30px;
+}
+
