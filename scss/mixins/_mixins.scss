@@ -1,0 +1,34 @@
+@mixin flexDirection($direction) {
+    display: flex;
+    flex-direction: $direction;    
+}
+
+@mixin titleCodar($color) {
+    color: $color;
+    font-family: $font-first;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@mixin paragraph ($color) {
+    color: $color;
+    font-family: $font-first;
+    font-size: 28px;
+}
+
+@mixin button {
+    background-color: $color-first;
+    color: $color-second;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+@mixin image {
+    width: 450px;
+    height: 400px;     
+}

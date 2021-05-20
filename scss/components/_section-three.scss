@@ -1,0 +1,46 @@
+.section-three {
+    .card-wrapper {
+        @include flexDirection (row);
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;        
+
+        .card-body {            
+            @include flexDirection (row);
+            background-color: $color-fourth;
+            border-radius: 15px;
+            padding: 20px;
+            width: 550px;
+            height: 150px;
+            margin-left: 20px;
+        }
+
+        .circle {
+            color: $color-first;
+            font-size: 90px;
+            margin-right: 20px;
+        }
+
+        .msg {
+            @include paragraph ($color-third);
+            font-weight: normal;
+            font-size: 18px;
+            text-align:justify;
+            margin-top: 20px;
+        }
+
+        .name {
+            @include paragraph ($color-third);
+            font-weight: normal;
+            font-size: 30px;
+            margin-top:15px;
+        }
+
+        .company {
+            @include paragraph ($color-third);
+            font-weight: bold;
+            font-size:18px;
+        }
+
+    }
+}

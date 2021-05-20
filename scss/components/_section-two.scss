@@ -1,0 +1,52 @@
+.section-two {
+    .block-wrapper {
+        @include flexDirection(row);
+        justify-content: center;
+        align-items: center;       
+        height:520px;
+
+        .main-image {
+            @include image;
+            margin-left: 300px;
+        }
+
+        .list{
+            @include paragraph ($color-third);
+            margin-top: 15px;
+
+            .icon {
+                color: $color-first;
+                margin-right: 15px;
+            }
+        }
+
+    }
+    .contact {
+        margin-left: 130px;
+
+        .main-p {
+            @include paragraph ($color-third);
+            font-weight: bold;
+        }
+        
+        .input {
+            @include paragraph ($color-third);
+            background-color: $color-fourth;
+            border-radius: 15px;            
+            font-size: 19px;
+            width: 200px;
+            height: 50px;
+            padding-left: 15px;
+            margin-top: 20px;
+        }
+
+        .button {
+            @include button;
+            @include paragraph ($color-second);
+            font-size: 20px;
+            width: 260px;
+            height: 57px;            
+            margin-left: 15px;
+        }
+    }
+}

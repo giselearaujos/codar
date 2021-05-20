@@ -1,0 +1,34 @@
+.header {
+    @include flexDirection(row);
+    height: 90px;     
+    margin-top: 35px;
+    margin-left: 40px;         
+    
+    .main-h1 {
+        @include titleCodar($color-first);                    
+    }     
+
+    .dot {
+        @include titleCodar($color-third);        
+    }
+
+    .nav-wrapper {
+        @include flexDirection(row);
+        align-items: center;
+        justify-content: flex-end;
+        width: 85%;  
+
+        .menu-text {
+            @include paragraph($color-third);
+            padding-right: 45px;
+            margin-bottom: 20px;  
+        }
+        
+        .main-button {
+            @include button;
+            margin-bottom: 20px; 
+        }
+    }
+
+
+}    

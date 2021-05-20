@@ -1,0 +1,35 @@
+.section-one {
+    .container {
+        @include flexDirection(row);
+        justify-content: center;
+        align-items: center;       
+        height:520px;  
+              
+        .main-image {
+            @include image;
+        }
+        
+        .block-right {
+            margin-left: 200px;
+
+            .main-p {
+                @include paragraph($color-third);
+                font-weight: bold;
+            }
+
+            .main-h1 {
+                @include titleCodar($color-first);
+                font-size: 60px;
+                margin-top: 10px;
+                margin-bottom: 50px;
+            }
+            
+            .main-button {
+                @include button;
+                width: 300px;
+            }
+
+        }
+    }
+    
+}

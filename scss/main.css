@@ -1,0 +1,360 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 90px;
+  margin-top: 35px;
+  margin-left: 40px;
+}
+
+.header .main-h1 {
+  color: #e10000;
+  font-family: Roboto, sans-serif;
+  font-size: 55px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.header .dot {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 55px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.header .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 85%;
+}
+
+.header .nav-wrapper .menu-text {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  padding-right: 45px;
+  margin-bottom: 20px;
+}
+
+.header .nav-wrapper .main-button {
+  background-color: #e10000;
+  color: #ffffff;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.section-one .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 520px;
+}
+
+.section-one .container .main-image {
+  width: 450px;
+  height: 400px;
+}
+
+.section-one .container .block-right {
+  margin-left: 200px;
+}
+
+.section-one .container .block-right .main-p {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.section-one .container .block-right .main-h1 {
+  color: #e10000;
+  font-family: Roboto, sans-serif;
+  font-size: 55px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.section-one .container .block-right .main-button {
+  background-color: #e10000;
+  color: #ffffff;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  width: 300px;
+}
+
+.section-two .block-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 520px;
+}
+
+.section-two .block-wrapper .main-image {
+  width: 450px;
+  height: 400px;
+  margin-left: 300px;
+}
+
+.section-two .block-wrapper .list {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.section-two .block-wrapper .list .icon {
+  color: #e10000;
+  margin-right: 15px;
+}
+
+.section-two .contact {
+  margin-left: 130px;
+}
+
+.section-two .contact .main-p {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.section-two .contact .input {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  background-color: #dbdbdb;
+  border-radius: 15px;
+  font-size: 19px;
+  width: 200px;
+  height: 50px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.section-two .contact .button {
+  background-color: #e10000;
+  color: #ffffff;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-size: 20px;
+  width: 260px;
+  height: 57px;
+  margin-left: 15px;
+}
+
+.section-three .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 200px;
+}
+
+.section-three .card-wrapper .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #dbdbdb;
+  border-radius: 15px;
+  padding: 20px;
+  width: 550px;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.section-three .card-wrapper .circle {
+  color: #e10000;
+  font-size: 90px;
+  margin-right: 20px;
+}
+
+.section-three .card-wrapper .msg {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.section-three .card-wrapper .name {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.section-three .card-wrapper .company {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #000000;
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.main-footer .footer-codar {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 55px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.main-footer .footer-title {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.main-footer .footer-text {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+.main-footer .footer-icon {
+  color: #e10000;
+  font-size: 35px;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=main.css.map */
