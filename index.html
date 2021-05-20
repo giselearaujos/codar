@@ -3,40 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/7dfd877c97.js" crossorigin="anonymous"></script>
+    <title>Codar .</title>   
 
-    <title>Codar .</title>
-    
-    <link rel="stylesheet" href="./css/responsive/responsive.css">
-    <link rel="stylesheet" href="./css/reset-css/reset.css">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/main-header.css">
-    <link rel="stylesheet" href="./css/main-h1.css">
-    <link rel="stylesheet" href="./css/nav-wrapper.css">
-    <link rel="stylesheet" href="./css/menu-text.css">
-    <link rel="stylesheet" href="./css/main-button.css">
-    <link rel="stylesheet" href="./css/main-section.css">
-    <link rel="stylesheet" href="./css/block-wrapper.css">
-    <link rel="stylesheet" href="./css/main-image.css">
-    <link rel="stylesheet" href="./css/block-right.css"> 
-    <link rel="stylesheet" href="./css/block-right-in.css"> 
-    <link rel="stylesheet" href="./css/main-p.css"> 
-    <link rel="stylesheet" href="./css/main-ul.css">
-    <link rel="stylesheet" href="./css/main-icon.css"> 
-    <link rel="stylesheet" href="./css/contact.css">
-    <link rel="stylesheet" href="./css/input.css">
-    <link rel="stylesheet" href="./css/card-wrapper.css">
-    <link rel="stylesheet" href="./css/card-body.css">
-    <link rel="stylesheet" href="./css/main-footer.css">
-    
+    <link rel="stylesheet" href="./scss/main.css">
+
 </head>
 <body>
-    <header class="main-header">
+    <header class="header">
         <h1 class="main-h1">Codar<h1 class="dot">.</h1></h1>
         <div class="nav-wrapper">
             <a href="#"><p class="menu-text">Início</p></a>
@@ -45,77 +22,77 @@
             <button class="main-button">Login</button>
         </div>
     </header>
-    <section class="main-section">
-        <div class="block-wrapper">
+    <section class="section-one">
+        <div class="container">
             <img class="main-image" src="./assets/video_call.png" alt="Imagem Vetorial de menino e PC">
-            <div class="block-right"> 
-                <div class="block-right-in">
+            <!-- <div class="block-right">  -->
+                <div class="block-right">
                     <p class="main-p">Alavanque seu negócio com um</p>
-                    <h1 class="main-h1 -title">Website incrível</h1>
-                    <button class="main-button -request">Solicitar orçamento</button>
+                    <h1 class="main-h1 ">Website incrível</h1>
+                    <button class="main-button">Solicitar orçamento</button>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>        
     </section>
-    <section class="main-section -second">
+    <section class="section-two">
        <div class="block-wrapper">
         <ul class="main-ul">
-            <li><p class="main-p -list"><i class="fas fa-check-circle main-icon"></i>Domínio personalizado</p></li>
-            <li><p class="main-p -list"><i class="fas fa-check-circle main-icon"></i>Hospedagem</p></li>
-            <li><p class="main-p -list"><i class="fas fa-check-circle main-icon"></i>Site responsivo</p></li>
-            <li><p class="main-p -list"><i class="fas fa-check-circle main-icon"></i>Redes sociais</p></li>
-            <li><p class="main-p -list"><i class="fas fa-check-circle main-icon"></i>Chat online</p></li>
-            <li><p class="main-p -list"><i class="fas fa-check-circle main-icon"></i>Blog integrado</p></li>
+            <li><p class="list"><i class="fas fa-check-circle icon"></i>Domínio personalizado</p></li>
+            <li><p class="list"><i class="fas fa-check-circle icon"></i>Hospedagem</p></li>
+            <li><p class="list"><i class="fas fa-check-circle icon"></i>Site responsivo</p></li>
+            <li><p class="list"><i class="fas fa-check-circle icon"></i>Redes sociais</p></li>
+            <li><p class="list"><i class="fas fa-check-circle icon"></i>Chat online</p></li>
+            <li><p class="list"><i class="fas fa-check-circle icon"></i>Blog integrado</p></li>
         </ul>
         <img class="main-image"src="assets/coding_.png" alt="Imagem Vetorial">
        </div>
        <div class="contact">
            <p class="main-p">Nossa equipe está à disposição!</p>
            <input class="input" type="text" placeholder="Celular">
-           <button class="main-button -input">Ligamos pra você</button>
+           <button class="button ">Ligamos pra você</button>
        </div>       
     </section>
-    <section class="main-section">
+    <section class="section-three">
         <div class="card-wrapper">
             <div class="card-body">
-                <i class="fas fa-circle main-icon -circle"></i>
+                <i class="fas fa-circle circle"></i>
                 <div class="text-card">
-                    <p class="main-p -msg">Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
-                    <p class="main-p -name"> Pedro Ferreira </p>
-                    <p class="main-p -company">Construtora Minari</p>
+                    <p class="msg">Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
+                    <p class="name"> Pedro Ferreira </p>
+                    <p class="company">Construtora Minari</p>
                 </div>            
             </div>
             <div class="card-body">
-                <i class="fas fa-circle main-icon -circle"></i>
+                <i class="fas fa-circle circle"></i>
                 <div>
-                    <p class="main-p -msg">Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
-                    <p class="main-p -name">Maria Rita</p>
-                    <p class="main-p -company">Escola Criança Feliz</p>
+                    <p class="msg">Processos bem simples e criação de um site exatamente como a minha escola queria!</p>
+                    <p class="name">Maria Rita</p>
+                    <p class="company">Escola Criança Feliz</p>
                 </div>            
             </div>            
         </div>
     </section>
     <footer class="main-footer">
         <div class="container">
-            <h1 class="main-h1 -footer-codar">Codar .</h1>
-            <p class="main-p -footer-text">Criamos websites incríveis</p>
+            <h1 class="footer-codar">Codar .</h1>
+            <p class="footer-text">Criamos websites incríveis</p>
         </div>
         <div class="container">
-            <p class="main-p -footer-title">Sobre</p>
-            <p class="main-p -footer-text">Amamos criar soluções</p>
-            <p class="main-p -footer-text">e entregar sites incríveis</p>
+            <p class="footer-title">Sobre</p>
+            <p class="footer-text">Amamos criar soluções</p>
+            <p class="footer-text">e entregar sites incríveis</p>
         </div>
         <div class="container">
-            <p class="main-p -footer-title">Contato</p>
-            <p class="main-p -footer-text -address">123 Av. Manjar - Nárnia</p>
-            <p class="main-p -footer-text -address">+55 96 2321-3131</p>
-            <p class="main-p -footer-text -address">contato@codar.com</p>
+            <p class="footer-title">Contato</p>
+            <p class="footer-text">123 Av. Manjar - Nárnia</p>
+            <p class="footer-text">+55 96 2321-3131</p>
+            <p class="footer-text">contato@codar.com</p>
         </div>
         <div class="container">
-            <p class="main-p -footer-title">Redes sociais</p> 
-            <i class="fab fa-facebook-square main-icon -footer"></i> 
-            <i class="fab fa-instagram main-icon -footer"></i>
-            <i class="fab fa-twitter-square main-icon -footer"></i>          
+            <p class="footer-title">Redes sociais</p> 
+            <i class="fab fa-facebook-square footer-icon"></i> 
+            <i class="fab fa-instagram footer-icon"></i>
+            <i class="fab fa-twitter-square footer-icon"></i>          
         </div>
     </footer>
 </body>
